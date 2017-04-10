@@ -25,7 +25,7 @@ p {
 
 /* Simple Responsive Framework. */
 .section {
-  background: gray;
+  background: #dddddd;
   position: relative;
   margin: 15px;
 /*  margin-left: 15px;
