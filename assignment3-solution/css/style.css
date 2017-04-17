@@ -30,6 +30,10 @@ body {
   /*line-height: .75;*/
 }
 
+.navbar-default .navbar-toggle{
+	margin-top: 35px;
+}
+
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     
     background-color: #EDC437;
@@ -58,29 +62,41 @@ body {
 }
 
 #menu-tile {
-	/*position: relative;*/
+	position: relative;
 	background: #CA2662;
 	padding: 10px;
 	margin-top: 10px;
 }
 
 #menu-tile a{
-	/*position: absolute;*/
+	position: absolute;
 	color: #fff;
-/*	margin-top: 0;
-	margin-bottom: 0;*/
+	top: 0;
+	left: 0;
 /*	padding-top: 10px;
 	padding-bottom: 10px;*/
-	/*width: 100%;*/
-	background: #3F3F3F;
-	opacity: 0.7;
+	width: 100%;
+	background: #961242;
+	/*opacity: 0.7;*/
 }
 
 #menu-tile h2{
 	margin-top: 10px;
 }
 
-
 #menu-tile p{
-	margin-top: 20px;
+	margin-top: 60px;
 }
+
+/*#menu-item-title {
+	position: absolute;
+	color: #fff;
+	top: 0;
+	left: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	background: #3F3F3F;
+	opacity: 0.7;
+}
+*/
