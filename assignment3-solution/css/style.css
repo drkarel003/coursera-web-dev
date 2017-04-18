@@ -30,6 +30,10 @@ body {
   line-height: .75;
 }
 
+#collapsable-nav {
+	text-align:center;
+}
+
 .navbar-default .navbar-toggle{
 	margin-top: 30px;
 }
